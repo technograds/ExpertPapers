@@ -1,0 +1,154 @@
+/*GENERAL STYLES*/
+body, h1, h2, h3, h4, 
+a, p, ul, li, header, 
+footer, div, span,
+nav, section, article, small,
+input, label {display: block;} 
+body {
+	background: url(css-images/grey.png);
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	color: #000000;
+    min-width: 1000px;
+}
+a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+
+/*HEADER*/
+header {
+    min-width: 1000px;
+    height: 50px;
+    background: linear-gradient(bottom, #000000 18%, #333333 85%);
+	background: -o-linear-gradient(bottom, #000000 18%, #333333 85%);
+	background: -moz-linear-gradient(bottom, #000000 18%, #333333 85%);
+	background: -webkit-linear-gradient(bottom, #000000 18%, #333333 85%);
+	background: -ms-linear-gradient(bottom, #000000 18%, #333333 85%);
+	-webkit-box-shadow: 2px 2px 18px #878787;
+	box-shadow: 2px 2px 18px #878787;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 50;
+}
+    #navigation {
+        width: 950px;
+        height: inherit;
+        margin: 0 auto;
+    }
+        #navigation li {
+            float:  left;
+            margin-right: 10px;
+        }
+            #navigation a {
+				color: #FFFFFF;					
+				margin-top: 0;
+				padding: 14px;
+				padding-bottom: 15px;
+			}
+                #navigation a:hover {
+					background: rgba(0, 0, 0, 0.7);
+				}
+
+#main-wrapper {
+    min-width: 1000px;
+    position: relative;
+}
+    #content-wrapper {
+        position: relative;
+        margin: 0 auto;
+    }
+        #content-header {
+            position: relative;
+            height: 500px;
+            background: url(css-images/light_alu.png);
+            border-bottom: 2px solid #CD0000;
+        }
+            #logo-box {
+                width: 1000px;
+                height: 300px;
+                margin: 0 auto;
+            }
+                #logo {
+                    height: 100px;
+                    width: 300px;
+                    border: 1px solid black;
+                    font-family: 'Almendra', serif;
+                    position: relative;
+                    top: 200px;
+                    float: left;
+                }
+                #order-and-inquire {
+                    float: right;
+                    width: 170px;
+                    height: 200px;
+                    position: relative;
+                    top: 175px;
+                }
+                    #order-and-inquire a {
+                        color: #FFFFFF;
+                        background: #CD0000;
+                        padding: 25px 10px;
+                        text-align: center;
+                        margin-bottom: 50px;
+                    }
+        #intro-container {
+            width: 1000px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+            #intro-container h1 {
+                width: 1000px;
+                padding: 15px;
+                margin: 0;
+                text-align: center;
+                -webkit-box-shadow: 2px 2px 3px #878787;
+	            box-shadow: 2px 2px 3px #878787;
+            }
+            #main-text {
+                text-align: justify;
+                line-height: 23px;
+                width: 950px;
+                margin: 25px auto;
+            }
+            #sub-data-container {
+                width: inherit;
+                height: 450px;
+            }
+                .sub-data {
+                    width: 320px;
+                    height: inherit;
+                    float: left;
+                    margin-right: 20px;
+                }
+                    .sub-data h3 {
+                        color: #FFFFFF;
+                        font-weight: 100;
+                        margin: 0;
+                        text-align: center;
+                        padding: 15px 0;
+                        background: linear-gradient(bottom, #000000 18%, #333333 85%);
+	                    background: -o-linear-gradient(bottom, #000000 18%, #333333 85%);
+	                    background: -moz-linear-gradient(bottom, #000000 18%, #333333 85%);
+	                    background: -webkit-linear-gradient(bottom, #000000 18%, #333333 85%);
+	                    background: -ms-linear-gradient(bottom, #000000 18%, #333333 85%);
+                    }
+                    .sub-data p {
+                        text-align: justify;
+                        width: 290px;
+                        line-height: 25px;
+                        margin: 15px auto;
+                    }
+footer {
+    height: 400px;
+    min-width: 1000px;
+    background: url(css-images/brushed_alu_dark.png);
+    position: relative;
+    border-top: 2px solid #000000;
+}
